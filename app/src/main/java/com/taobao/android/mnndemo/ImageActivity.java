@@ -431,6 +431,9 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
         int w = bitmap.getWidth();
         int h = bitmap.getHeight();
         Matrix matrix = new Matrix();
+        float radio = (float)screenWidth/screenHight;
+        screenHight = 400;
+        screenWidth = (int)(400 * radio);
         float scale = (float) screenWidth / w;
         float scale2 = (float) screenHight / h;
         // scale = scale < scale2 ? scale : scale2;
