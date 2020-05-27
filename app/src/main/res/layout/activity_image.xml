@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#1685a9"
+        android:textSize="18dp"
+        android:text="从相册选择图片"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <TextView
+        android:id="@+id/textView0"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#1685a9"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#1685a9"
+        android:text="保存图片"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#1685a9"
+        android:text="切换原图"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:text="选择风格类型"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        tools:context=".MainActivity" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/radio_la"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="la   " />
+            <RadioButton
+                android:id="@+id/radio_rain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rain " />
+
+            <RadioButton
+                android:id="@+id/radio_scream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scream" />
+
+            <RadioButton
+                android:id="@+id/radio_udnie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="udnie" />
+
+            <RadioButton
+                android:id="@+id/radio_wave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wave" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <ScrollView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/editText"
+                android:textSize="14sp"
+                android:textColor="#4A4A4A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/timeText"
+                android:textSize="15sp"
+                android:textColor="#4A4A4A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

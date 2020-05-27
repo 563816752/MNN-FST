@@ -1,0 +1,52 @@
+
+{
+	"buildFiles" : [ "/Users/wuzongrui/Desktop/MNN-FST/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/wuzongrui/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wuzongrui/Desktop/MNN-FST/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MNN-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MNN",
+			"buildType" : "release",
+			"output" : "/Users/wuzongrui/Desktop/MNN-FST/app/libs/armeabi-v7a/libMNN.so",
+			"toolchain" : "6800350763008000144"
+		},
+		"mnncore-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "mnncore",
+			"buildCommand" : "/Users/wuzongrui/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/wuzongrui/Desktop/MNN-FST/app/.externalNativeBuild/cmake/release/armeabi-v7a --target mnncore",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wuzongrui/Desktop/MNN-FST/app/src/main/jni/mnnnetnative.cpp",
+					"workingDirectory" : "/Users/wuzongrui/Desktop/MNN-FST/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/wuzongrui/Desktop/MNN-FST/app/src/main/jni/mnnportraitnative.cpp",
+					"workingDirectory" : "/Users/wuzongrui/Desktop/MNN-FST/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/wuzongrui/Desktop/MNN-FST/app/build/intermediates/cmake/release/obj/armeabi-v7a/libmnncore.so",
+			"toolchain" : "6800350763008000144"
+		}
+	},
+	"toolchains" : 
+	{
+		"6800350763008000144" : 
+		{
+			"cCompilerExecutable" : "/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/wuzongrui/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

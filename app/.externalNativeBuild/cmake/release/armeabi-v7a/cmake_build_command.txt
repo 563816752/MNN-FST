@@ -1,0 +1,17 @@
+Executable : /Users/wuzongrui/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/wuzongrui/Desktop/MNN-FST/app
+-B/Users/wuzongrui/Desktop/MNN-FST/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/wuzongrui/Desktop/MNN-FST/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/wuzongrui/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/wuzongrui/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/wuzongrui/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_PLATFORM=android-21
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
